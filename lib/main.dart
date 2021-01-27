@@ -1,4 +1,5 @@
 import 'package:bloc_example/pages/home_page.dart';
+import 'package:bloc_example/pages/news_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: NewsPage(),
     );
   }
 }

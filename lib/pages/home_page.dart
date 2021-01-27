@@ -19,7 +19,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    print('build home');
     return BlocProvider.value(
       value: _counterBloc,
       child: Scaffold(
